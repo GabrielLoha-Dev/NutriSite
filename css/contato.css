@@ -1,0 +1,68 @@
+*{
+    font-size: small;
+}
+
+body{
+    background-color: #b5f19f;
+}
+
+form{
+    width: auto;
+    width: 60%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+header{
+    height: 10vh;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cont input, textarea{
+    outline: none;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#pmessage{
+    color: rgba(0, 0, 0, 0.445);
+}
+
+.btn-send{
+    padding: 10px;
+    background: #f38406;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: .3s;
+}.btn-send:hover{
+    opacity: 0.5;
+}
+
+main{
+    height: 75vh;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-40px);
+}
+
+footer{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b5f19f;
+    font-size: small;
+}

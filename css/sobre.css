@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quem_sou_eu{
+    background-color: #b5f19f;
+}.acompanhamento{
+    background-color: #95cf7f;
+}.confianca{
+    background-color: #b5f19f;
+}
+
+.text_content{
+    width: 50%;
+}
+
+.imgs{
+    width: 20%; 
+}
+
+h3{
+    color: #f38406;
+}
+
+p{
+    color: #325026;
+}
+
+#shadow-host-companion{
+    display: none;
+}
+
+footer{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b5f19f;
+    font-size: small;
+}
